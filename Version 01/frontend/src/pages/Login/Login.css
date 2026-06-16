@@ -1,0 +1,13 @@
+.auth-page { min-height: calc(100vh - 200px); display: flex; align-items: center; justify-content: center; padding: 2rem 1rem; }
+.auth-card { background: var(--white); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); padding: 2.5rem; width: 100%; max-width: 420px; }
+.auth-header { text-align: center; margin-bottom: 1.5rem; }
+.auth-logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); text-decoration: none; display: block; margin-bottom: 1rem; }
+.auth-header h1 { font-size: 1.5rem; margin-bottom: 0.3rem; }
+.auth-header p { color: var(--gray); font-size: 0.9rem; }
+.auth-submit-btn { width: 100%; padding: 0.75rem; font-size: 1rem; margin-top: 0.5rem; }
+.auth-switch { text-align: center; margin-top: 1.2rem; font-size: 0.9rem; color: var(--gray); }
+.auth-switch a { color: var(--primary); font-weight: 600; }
+.test-credentials { margin-top: 1.5rem; padding: 1rem; background: var(--light-gray); border-radius: var(--radius); font-size: 0.8rem; }
+.test-credentials p { color: var(--gray); margin-bottom: 0.5rem; }
+.test-credentials button { margin-right: 0.5rem; margin-top: 0.25rem; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.3rem 0.7rem; font-size: 0.8rem; cursor: pointer; }
+.test-credentials button:hover { border-color: var(--primary); color: var(--primary); }
